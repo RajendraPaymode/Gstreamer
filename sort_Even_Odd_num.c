@@ -3,14 +3,14 @@ main()
 {
 	int a[10]={1,2,3,4,5,6,7,8,9,10};
 	int i,j,temp;
-	printf("Unsorted positive and negative number\n");
+	printf("Unsorted Even and Odd number\n");
 	for(i=0;i<10;i++)
 	{
 		printf("%d\t",a[i]);
 
 	}
 
-	printf("\nSorted positive and negative number\n");
+	printf("\nSorted Even and Odd number\n");
 	for(i=0,j=9;i<j;)
 	{
 		if((a[i]%2)==0)
